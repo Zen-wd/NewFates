@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <div id="container2">
+        <style>
+            body  {
+              background-image: url("/images/beb.png");
+              background-color: #141111;
+            }
+            </style>
+        <style>
+        .zoom {
+            padding: 50px;
+            background-image: url("images/beb.png");
+            background-size: cover;
+            background-position: center;
+            transition: transform .2s; /*
+            Animation */
+            width: 500px;
+            height: 400px;
+            margin: 0 auto;
+        }
+        .zoom:hover {
+            transform: scale(1.5);
+        }
+    </style>
+    <div class="zoom">
+       <h1 style="text-align:center;color:azure">It's too late for you</h1>
+    </div>
+
+
+
+    </div>

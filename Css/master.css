@@ -1,0 +1,214 @@
+#container {
+    background-color: #3B2021;
+    width: 1920px;
+   
+    }
+    #left {
+        background-color: #F5EADC;
+        width: 1284px;
+        
+        float: left;
+        
+    }
+        #top {
+            width: 1284px;
+            height: 141px;
+            background-color: #DFC188;
+            box-shadow: 10px 10px 5px #bba171;
+            display: flex; 
+        }
+
+            #NF {
+                height: 141px;
+                width: 384px;
+                border-right: 2px;
+                border-color:#3B2021;
+                
+                text-align: center;
+                border-style: solid;
+                border-top: 0px;
+                border-bottom: 0px;
+                border-left: 0px;
+            }
+            #Asp {
+                height: 141px;
+                width: 285px;
+                border-right: 2px;
+                border-left: 2px;
+                border-color:#3B2021;
+                
+                text-align: center;
+                border-style: solid;
+                border-top: 0px;
+                border-bottom: 0px;
+            }
+            #Freq {
+                height: 141px;
+                width: 401px;
+                border-right: 2px;
+                border-left: 2px;
+                border-color:#3B2021;
+                
+                text-align: center;
+                background-color:#DFC188;
+                border-style: solid;
+                border-top: 0px;
+                border-bottom: 0px;
+            }
+        #Info1 {
+            height: 325px;
+            width: 900px;
+            border-width: 1px;
+            border-color:#3B2021;
+            border-radius: 5%;
+            text-align: center;
+            background-color:#e4d0b6;
+            border-style: solid;
+            align-self: center;
+            
+
+         }
+
+        #Info2 {
+            height: 383px;
+            width: 1234px;
+            border-width: 1px;
+            border-color:#3B2021;
+            border-radius: 5%;
+            text-align: center;
+            background-color:#e4d0b6;
+            border-style: solid;
+            align-self: center;
+            float: left;
+         }
+         #Info3 {
+            height: 233px;
+            width: 1234px;
+            border-width: 1px;
+            border-color:#3B2021;
+            border-radius: 5%;
+            text-align: center;
+            background-color:#e4d0b6;
+            border-style: solid;
+            align-self: center;
+            float: left;
+         }
+    #right {
+        background-color:#3B2021;
+        width: 636px;
+        height:1080px;
+        display:flex;
+        float: right;
+        opacity: .38;
+        background-image: url('images/beb.png');
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #right2 {
+        background-color:#3B2021;
+        width: 636px;
+        height:3480px;
+        display:flex;
+        float: right;
+        opacity: .38;
+        background-image: url('images/beb.png');
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #right3 {
+        background-color:#3B2021;
+        width: 636px;
+        height:4080px;
+        display:flex;
+        float: right;
+        opacity: .38;
+        background-image: url('images/beb.png');
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #beb {
+        background-color: #3B2021;
+        width: 1920px;
+        height: 1080px;
+        display:flex;
+        background-image: url('images/beb.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+h1 {
+    font-size: 72px ;
+    font-family:'Brush Script MT', cursive;
+    color: #512626 ;
+    line-height: 120%;
+    align-content: center;
+}
+h2 {
+    font-size:32px;
+    font-family:'Brush Script MT', cursive;
+    color: #512626 ;
+    align-content: center;
+    padding-top: 15px;
+    margin-inline: 5%;
+    
+}
+h3 {
+    font-size:32px;
+    font-family:'Brush Script MT', cursive;
+    color: #512626 ;
+    align-content: center;
+    padding-top: 25px;
+    margin-inline: 5%;
+    
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color:#DFC188;
+    border-radius:5px;
+    box-shadow: 0px 10px 10px 0px 
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+    
+  }
+  
+  #button{
+    height: 141px;
+    width: 285px;
+    border-right: 2px;
+    border-left: 2px;
+    border-color:#3B2021;
+    
+    text-align: center;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    cursor: pointer;
+  }
+
+  #container2 {
+    background-color: #3B2021;
+    width: 1920px;
+    height: 1080px;
+    background-image: url('images/beb.png');
+        background-attachment: fixed;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+  }
